@@ -23,10 +23,9 @@ const translations = {
   }
 };
 
-document.getElementById('language-selector').addEventListener('change', (event) => {
-  const lang = event.target.value;
+function changeLanguage(lang) {
   document.querySelectorAll('.lang').forEach((element) => {
-      const key = element.getAttribute('key');
-      element.textContent = translations[lang][key];
+    const key = element.getAttribute('key');
+    element.textContent = translations[lang][key];
   });
-});
+}
