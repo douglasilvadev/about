@@ -15,12 +15,12 @@ nav {
 }
 
 nav ul {
-  list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style: none;
 }
 
 nav ul li {
@@ -64,6 +64,10 @@ section {
   max-width: 600px;
 }
 
+.gmail .linkedin .instagram .twitter {
+  margin-right: 50px;
+  padding: 20px;
+}
 @media (max-width: 600px) {
   nav ul {
       flex-direction: column;
