@@ -7,11 +7,13 @@ body {
 
 nav {
   position: fixed;
-  top: 0;
-  width: 100%;
+  top: 50%; 
+  transform: translateY(-50%); 
+  left: 50%;
+  width: 50%;
   background-color: white;
   border-bottom: 1px solid #ddd;
-  z-index: 1000;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -24,11 +26,11 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 15px;
+  margin: 0px 15px;
+  padding-top: 10px;
 }
 
 nav ul li a {
-  text-decoration: none;
   color: black;
   padding: 10px 15px;
   border-radius: 5px;
@@ -36,12 +38,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: purple;
+  background-color: #9956f6;
   color: white;
+  text-decoration: none;
 }
 
 nav ul li a:active {
-  background-color: green;
+  background-color: #29e0a9;
   color: white;
 }
 
@@ -49,6 +52,7 @@ nav ul li select {
   padding: 10px 15px;
   border-radius: 5px;
 }
+
 
 section {
   padding: 100px 20px;
